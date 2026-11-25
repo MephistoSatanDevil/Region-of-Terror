@@ -7,13 +7,12 @@
 
 <div align="center"><h1>Region of Terror</h1>
 
-<h3>A Spellhold Studios mod for Baldur's Gate II:ToB, Baldur's Gate Trilogy, BG2:EE and EET<h3>
+<h3>A Spellhold Studios mod for Baldur's Gate II: Throne of Bhaal, Baldur's Gate Trilogy, Baldur's Gate II: Enhanced Edition and Baldur's Gate: Enhanced Edition Trilogy<h3>
 
 </div><br />
 
 
 **Author:** Gilgamesh (Pekka Syrjänen)  
-**Mod Website:** <a href="http://www.spellholdstudios.net/ie/rot">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/forum/168-region-of-terror/">Region of Terror</a>  
 
 
@@ -232,7 +231,7 @@ This component installs additional spells for wizards.
 
 #### Special Acknowledgements to:
 
-- <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> team for hosting the mod (<a href="http://www.shsforums.net">Forums</a>).
+- <a href="https://www.shsforums.net/">Spellhold Studios</a> team for hosting the mod.
 - <a href="www.forgottenwars.net">FORGOTTEN WARS</a> (for taking the <a href="http://forums.forgottenwars.net/index.php?showforum=173">mod</a> after TeamBG's death).
 - TEAM BG (for hosting both our site and forum, and for providing the best IE editing tools in the world!).
 - The creators of the Baldur's Gate series: <a href="http://www.bioware.com/">Bioware</a> and <a href="http://www.obsidian.net/">Black Isle Studios</a>.
@@ -306,22 +305,36 @@ This component installs additional spells for wizards.
 
 By Roberciiik:
 
-- Fixed original Drizzt Encounter bug introduced in version 5.0.
 - Added Spirit Soaring area to the BP-BGT-Worldmap.
+- Added NPC portraits for EE engine.
+- Added a text feedback to player that some door was opened after solving the puzzle in RA5603 area.
+- Added background animation to the six summoning places in the Cave area (RA5002), so the places are now clearly recognizable.
+- Removed unused levers triggers in Ice Temple outdoor area (RA5601).
+- Fixed original Drizzt Encounter bug introduced in version 5.0.
 - Fixed endless loop of Pip & Brundor forge cutscene.
 - Fixed player return coordinates after second cutscene.
 - Fixed view point coordinates of third cutscene.
-- Added NPC portraits for EE engine.
+- Fixed Pip giving PC the Glowing Chainmail instead of Glowing Halberd.
+- Fixed incorrect unlock door message in RA5603 area.
 - Fixed incorrect name of Commoner Women from Arlax.
+- Fixed graphical corrupion of door in Ice Temple first level area (RA5602).
+- Fixed Search Map to prevent conflict of travel point with region trigger in RA5600.
 
 By Weigo:
 
 - Switched to UTF-8 translations.
 - Added new Wizard Spells component.
+- Fixed unexisting Wizard Spells (WIZARD_OTTO_IRRESISTIBLE_DANCE and WIZARD_FOG_CLOUD)
 
 By Lzw104522773:
 
 - Updated Simplified Chinese translation.
+
+By MephistoSatanDevil:
+
+- Updated Simplified Chinese translation.
+
+##
 
 #### Version 5.0 (April 16, 2024)
 
@@ -448,7 +461,7 @@ By AL|EN:
 8. RR4002.BAF. Items destruction sequence optimized.
 9. "weidu --out ROT-TIS1 --biff-get-rest AR0334.tis" added to .bat to extract that TIS from the compressed BIF.
 10. Translation fixed for all scripts in \SNIP\BAF\ (SCRIPT.TRA)
-11. ALENNA.D - fixed several dialogue flows (from <a href="http://forums.spellholdstudios.net/index.php?showtopic=22078&st=20">Sandman</a>).
+11. ALENNA.D - fixed several dialogue flows (from <a href="https://www.shsforums.net/topic/22078-bugs-found-in-roterror/page-2#entry271216">Sandman</a>).
 12. NEWPO01.ITM - can be used by Wizardslayers (Healing potion).
 13. SPCL379.SPL - Planar Druid fire resistance bonus should be 50%, not 25 as it was.
 14. SINGER bard kit Bard Songs fixed.
@@ -473,6 +486,5 @@ By AL|EN:
 #### Version 1.0
 
 - Initial release.
-<div align="right"><a href="#top">Back to top</a></div>
 
-*[oBG2]: Classic Baldur's Gate II
+<div align="right"><a href="#top">Back to top</a></div>
